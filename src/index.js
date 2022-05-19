@@ -22,7 +22,7 @@ const HOTELS_ROUTE = "hotels";
 
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello Kaizeners!");
 });
 
 app.get(`${COMMON_BASE_ROUTE}/${RESTAURANTS_ROUTE}`, (req, res) => {
